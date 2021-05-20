@@ -3,7 +3,7 @@ function getRandomNumber () {
 }
 
 function changeImage (image,randomNumber) {
-	randomDiceImage = "/images/dice"+randomNumber+".png";
+	randomDiceImage = "images/dice"+randomNumber+".png";
 	imageClassName = ".img"+image;
 	document.querySelector(imageClassName).setAttribute("src",randomDiceImage)
 }
